@@ -1,107 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://yingming006.github.io/tags/index.html</loc>
+    
+    <lastmod>2020-12-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://yingming006.github.io/sayings/index.html</loc>
+    
+    <lastmod>2020-12-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://yingming006.github.io/categories/index.html</loc>
+    
+    <lastmod>2020-12-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://yingming006.github.io/404/index.html</loc>
+    
+    <lastmod>2020-12-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://yingming006.github.io/backup-hexo/</loc>
+    
+    <lastmod>2020-12-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://yingming006.github.io/set-wsl-proxy/</loc>
+    
+    <lastmod>2020-11-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://yingming006.github.io/sort-algorithm-in-java/</loc>
+    
+    <lastmod>2020-11-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://yingming006.github.io/win10-system-reinstallation-and-common-software-install/</loc>
+    
+    <lastmod>2020-11-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://yingming006.github.io/software-mirror-in-ubuntu/</loc>
+    
+    <lastmod>2020-11-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://yingming006.github.io/install-software-in-ubuntu/</loc>
+    
+    <lastmod>2020-09-24</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://yingming006.github.io/change-ubuntu-repository-mirror-sources/</loc>
+    
+    <lastmod>2020-09-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://yingming006.github.io/build-a-personal-blog-based-on-hexo-and-github-pages/</loc>
+    
+    <lastmod>2020-03-31</lastmod>
+    
+  </url>
+  
 
+  <url>
+    <loc>https://yingming006.github.io/</loc>
+    <lastmod>2020-12-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
 
-<url>
-  <loc>https://yingming006.cn/</loc>
-  <lastmod>2020-12-24T11:51:50+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://yingming006.cn/categories/</loc>
-  <lastmod>2020-12-24T11:51:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yingming006.cn/tags/</loc>
-  <lastmod>2020-12-24T11:51:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yingming006.cn/archives/</loc>
-  <lastmod>2020-12-24T11:51:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yingming006.cn/sayings/</loc>
-  <lastmod>2020-12-24T11:51:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yingming006.cn/404/</loc>
-  <lastmod>2020-12-24T11:51:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yingming006.cn/backup-hexo/</loc>
-  <lastmod>2020-12-24T11:51:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yingming006.cn/categories/Hexo/</loc>
-  <lastmod>2020-12-24T11:51:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yingming006.cn/set-wsl-proxy/</loc>
-  <lastmod>2020-12-24T11:51:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yingming006.cn/sort-algorithm-in-java/</loc>
-  <lastmod>2020-12-24T11:51:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yingming006.cn/win10-system-reinstallation-and-common-software-install/</loc>
-  <lastmod>2020-12-24T11:51:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yingming006.cn/software-mirror-in-ubuntu/</loc>
-  <lastmod>2020-12-24T11:51:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yingming006.cn/install-software-in-ubuntu/</loc>
-  <lastmod>2020-12-24T11:51:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yingming006.cn/change-ubuntu-repository-mirror-sources/</loc>
-  <lastmod>2020-12-24T11:51:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yingming006.cn/build-a-personal-blog-based-on-hexo-and-github-pages/</loc>
-  <lastmod>2020-12-24T11:51:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yingming006.cn/tags/Hexo/</loc>
-  <lastmod>2020-12-24T11:51:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://yingming006.cn/tags/Next/</loc>
-  <lastmod>2020-12-24T11:51:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://yingming006.cn/tags/backup/</loc>
-  <lastmod>2020-12-24T11:51:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://yingming006.cn/tags/sort/</loc>
-  <lastmod>2020-12-24T11:51:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+  
+  <url>
+    <loc>https://yingming006.github.io/tags/Hexo/</loc>
+    <lastmod>2020-12-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yingming006.github.io/tags/Next/</loc>
+    <lastmod>2020-12-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yingming006.github.io/tags/backup/</loc>
+    <lastmod>2020-12-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yingming006.github.io/tags/sort/</loc>
+    <lastmod>2020-12-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
-
+  
+  <url>
+    <loc>https://yingming006.github.io/categories/Hexo/</loc>
+    <lastmod>2020-12-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 </urlset>
