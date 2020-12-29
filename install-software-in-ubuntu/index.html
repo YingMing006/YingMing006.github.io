@@ -238,7 +238,7 @@
 
       <!--noindex-->
       <section class="post-toc-wrap sidebar-panel">
-          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Java"><span class="nav-number">1.</span> <span class="nav-text">Java</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Node-js-%E5%92%8C-npm"><span class="nav-number">2.</span> <span class="nav-text">Node.js 和 npm</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Yarn"><span class="nav-number">3.</span> <span class="nav-text">Yarn</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Nginx"><span class="nav-number">4.</span> <span class="nav-text">Nginx</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Docker"><span class="nav-number">5.</span> <span class="nav-text">Docker</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#tldr"><span class="nav-number">6.</span> <span class="nav-text">tldr</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#neofetch"><span class="nav-number">7.</span> <span class="nav-text">neofetch</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#zsh-amp-oh-my-zsh"><span class="nav-number">8.</span> <span class="nav-text">zsh &amp; oh-my-zsh</span></a></li></ol></div>
+          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Java"><span class="nav-number">1.</span> <span class="nav-text">Java</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Node-js-%E5%92%8C-npm"><span class="nav-number">2.</span> <span class="nav-text">Node.js 和 npm</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Yarn"><span class="nav-number">3.</span> <span class="nav-text">Yarn</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Nginx"><span class="nav-number">4.</span> <span class="nav-text">Nginx</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Docker"><span class="nav-number">5.</span> <span class="nav-text">Docker</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#tldr"><span class="nav-number">6.</span> <span class="nav-text">tldr</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#neofetch"><span class="nav-number">7.</span> <span class="nav-text">neofetch</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#zsh-amp-oh-my-zsh"><span class="nav-number">8.</span> <span class="nav-text">zsh &amp; oh-my-zsh</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#zsh-%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90"><span class="nav-number">8.1.</span> <span class="nav-text">zsh 插件推荐</span></a></li></ol></li></ol></div>
       </section>
       <!--/noindex-->
 
@@ -497,6 +497,18 @@
 <p><code>https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh</code></p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sh -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh)</span>&quot;</span></span><br></pre></td></tr></table></figure>
 
+<h4 id="zsh-插件推荐"><a href="#zsh-插件推荐" class="headerlink" title="zsh 插件推荐"></a>zsh 插件推荐</h4><ul>
+<li><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3pzaC11c2Vycy96c2gtYXV0b3N1Z2dlc3Rpb25z">zsh-autosuggestions<i class="fa fa-external-link-alt"></i></span></li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/zsh-users/zsh-autosuggestions <span class="variable">$&#123;ZSH_CUSTOM:-~/.oh-my-zsh/custom&#125;</span>/plugins/zsh-autosuggestions</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3pzaC11c2Vycy96c2gtc3ludGF4LWhpZ2hsaWdodGluZw==">zsh-syntax-highlighting<i class="fa fa-external-link-alt"></i></span></li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/zsh-users/zsh-syntax-highlighting.git <span class="variable">$&#123;ZSH_CUSTOM:-~/.oh-my-zsh/custom&#125;</span>/plugins/zsh-syntax-highlighting</span><br></pre></td></tr></table></figure>
+
+<p><code>.bashrc</code> 文件修改如下</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">plugins&#x3D;(zsh-autosuggestions zsh-syntax-highlighting)</span><br></pre></td></tr></table></figure>
 
     </div>
 
