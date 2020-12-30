@@ -23,14 +23,14 @@
   </url>
   
   <url>
-    <loc>https://yingming006.github.io/categories/index.html</loc>
+    <loc>https://yingming006.github.io/404/index.html</loc>
     
     <lastmod>2020-12-16</lastmod>
     
   </url>
   
   <url>
-    <loc>https://yingming006.github.io/404/index.html</loc>
+    <loc>https://yingming006.github.io/categories/index.html</loc>
     
     <lastmod>2020-12-16</lastmod>
     
@@ -40,13 +40,6 @@
     <loc>https://yingming006.github.io/backup-hexo/</loc>
     
     <lastmod>2020-12-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://yingming006.github.io/set-wsl-proxy/</loc>
-    
-    <lastmod>2020-11-30</lastmod>
     
   </url>
   
@@ -88,36 +81,36 @@
 
   <url>
     <loc>https://yingming006.github.io/</loc>
-    <lastmod>2020-12-29</lastmod>
+    <lastmod>2020-12-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
+    <loc>https://yingming006.github.io/tags/backup/</loc>
+    <lastmod>2020-12-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yingming006.github.io/tags/Hexo/</loc>
-    <lastmod>2020-12-29</lastmod>
+    <lastmod>2020-12-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://yingming006.github.io/tags/Next/</loc>
-    <lastmod>2020-12-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yingming006.github.io/tags/backup/</loc>
-    <lastmod>2020-12-29</lastmod>
+    <lastmod>2020-12-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://yingming006.github.io/tags/sort/</loc>
-    <lastmod>2020-12-29</lastmod>
+    <lastmod>2020-12-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -126,7 +119,7 @@
   
   <url>
     <loc>https://yingming006.github.io/categories/Hexo/</loc>
-    <lastmod>2020-12-29</lastmod>
+    <lastmod>2020-12-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

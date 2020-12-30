@@ -251,7 +251,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">8</span>
+          <span class="site-state-item-count">7</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -378,94 +378,6 @@
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/backup-hexo/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://yingming006.github.io/set-wsl-proxy/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="yingming006">
-      <meta itemprop="description" content="You will never know unless you try.">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="yingming006's Blog">
-    </span>
-
-    
-    
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/set-wsl-proxy/" class="post-title-link" itemprop="url">设置 WSL 代理</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2020-11-30 16:58:27" itemprop="dateCreated datePublished" datetime="2020-11-30T16:58:27+08:00">2020-11-30</time>
-    </span>
-
-  
-    <span id="/set-wsl-proxy/" class="post-meta-item leancloud_visitors" data-flag-title="设置 WSL 代理" title="阅读次数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-eye"></i>
-      </span>
-      <span class="post-meta-item-text">阅读次数：</span>
-      <span class="leancloud-visitors-count"></span>
-    </span>
-  
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <blockquote>
-<p>windows 代理软件必须开启允许来自局域网(LAN)的连接<br><img src="https://i.loli.net/2020/11/30/vZ1EH96GKOnDQBI.png" alt="v2ray设置"></p>
-</blockquote>
-<h2 id="1-设置临时代理"><a href="#1-设置临时代理" class="headerlink" title="1. 设置临时代理"></a>1. 设置临时代理</h2><p>假设代理监听端口为 10808</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 在 wsl 中输入以下命令</span></span><br><span class="line"><span class="built_in">export</span> http_proxy=<span class="string">&quot;socks5://127.0.0.1:10808&quot;</span></span><br><span class="line"><span class="built_in">export</span> https_proxy=<span class="string">&quot;socks5://127.0.0.1:10808&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>使用<code>curl www.google.com</code>测试一下，有输出结果即为配置成功。</p>
-<blockquote>
-<p>此方法仅为临时使用，退出 bash 后临时环境变量就会失效</p>
-</blockquote>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/set-wsl-proxy/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
