@@ -6,8 +6,8 @@
 <meta name="theme-color" content="#222">
 <meta name="generator" content="Hexo 5.2.0">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.ico">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
   <meta http-equiv="Cache-Control" content="no-transform">
   <meta http-equiv="Cache-Control" content="no-siteapp">
@@ -52,7 +52,7 @@
   };
 </script>
 
-  <title>yingming006's Blog - up up up</title>
+  <title>yingming006's Blog - just do it</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165634759-1"></script>
     <script>
@@ -136,7 +136,7 @@
       <h1 class="site-title">yingming006's Blog</h1>
       <i class="logo-line"></i>
     </a>
-      <p class="site-subtitle" itemprop="description">up up up</p>
+      <p class="site-subtitle" itemprop="description">just do it</p>
   </div>
 
   <div class="site-nav-right">
@@ -251,7 +251,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">7</span>
+          <span class="site-state-item-count">8</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -378,6 +378,98 @@
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/backup-hexo/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://yingming006.github.io/wsl2-access-windows-proxy/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="yingming006">
+      <meta itemprop="description" content="You will never know unless you try.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="yingming006's Blog">
+    </span>
+
+    
+    
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/wsl2-access-windows-proxy/" class="post-title-link" itemprop="url">WSL2 访问 Windows 代理</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2020-11-30 16:58:27" itemprop="dateCreated datePublished" datetime="2020-11-30T16:58:27+08:00">2020-11-30</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2021-01-03 20:30:27" itemprop="dateModified" datetime="2021-01-03T20:30:27+08:00">2021-01-03</time>
+      </span>
+
+  
+    <span id="/wsl2-access-windows-proxy/" class="post-meta-item leancloud_visitors" data-flag-title="WSL2 访问 Windows 代理" title="阅读次数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span class="leancloud-visitors-count"></span>
+    </span>
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="获取-WSL2-IP-地址"><a href="#获取-WSL2-IP-地址" class="headerlink" title="获取 WSL2 IP 地址"></a>获取 WSL2 IP 地址</h2><p>在 WSL2 中，要访问 Windows 上运行的网络应用（例如在 Windows 上运行的代理软件、SQL 服务器等），需要使用 WSL2 的 IP 地址，而不是 <code>localhost</code>。</p>
+<p>WSL2 的 IP 地址保存在 <code>/etc/resolv.conf</code> 文件中的 <code>nameserver</code>，可以通过一下命令获取：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cat /etc/resolv.conf|grep nameserver|awk <span class="string">&#x27;&#123;print $2&#125;&#x27;</span></span><br></pre></td></tr></table></figure>
+<h2 id="设置环境变量"><a href="#设置环境变量" class="headerlink" title="设置环境变量"></a>设置环境变量</h2><blockquote>
+<p>这里拿 v2ray 举例，默认 sock5 的监听端口为 10808</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">export</span> PROXY_PORT=10808</span><br><span class="line"><span class="built_in">export</span> WINDOWS_NAMESERVER=`cat /etc/resolv.conf|grep nameserver|awk <span class="string">&#x27;&#123;print $2&#125;&#x27;</span>`</span><br><span class="line"><span class="built_in">export</span> WIN_PROXY=socks5://<span class="variable">$WINDOWS_NAMESERVER</span>:<span class="variable">$PROXY_PORT</span></span><br><span class="line"><span class="built_in">export</span> HTTP_PROXY=<span class="variable">$WIN_PROXY</span></span><br><span class="line"><span class="built_in">export</span> HTTPS_PROXY=<span class="variable">$WIN_PROXY</span></span><br></pre></td></tr></table></figure>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/wsl2-access-windows-proxy/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -972,8 +1064,8 @@
 
 <div class="copyright">
   
-  &copy; 
-  <span itemprop="copyrightYear">2020</span>
+  &copy; 2020 – 
+  <span itemprop="copyrightYear">2021</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
