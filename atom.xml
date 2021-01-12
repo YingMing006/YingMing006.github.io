@@ -3,11 +3,11 @@
   <title>yingming006&#39;s Blog</title>
   
   <subtitle>积跬步，至千里</subtitle>
-  <link href="https://yingming006.github.io/atom.xml" rel="self"/>
+  <link href="https://yingming006.cn/atom.xml" rel="self"/>
   
-  <link href="https://yingming006.github.io/"/>
+  <link href="https://yingming006.cn/"/>
   <updated>2020-12-15T11:40:55.000Z</updated>
-  <id>https://yingming006.github.io/</id>
+  <id>https://yingming006.cn/</id>
   
   <author>
     <name>yingming006</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>备份 Hexo 博客(精简版)</title>
-    <link href="https://yingming006.github.io/backup-hexo/"/>
-    <id>https://yingming006.github.io/backup-hexo/</id>
+    <link href="https://yingming006.cn/backup-hexo/"/>
+    <id>https://yingming006.cn/backup-hexo/</id>
     <published>2020-12-15T11:40:55.000Z</published>
     <updated>2020-12-15T11:40:55.000Z</updated>
     
@@ -36,19 +36,19 @@
     
     
     
-    <category term="Hexo" scheme="https://yingming006.github.io/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://yingming006.cn/categories/Hexo/"/>
     
     
-    <category term="Hexo" scheme="https://yingming006.github.io/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://yingming006.cn/tags/Hexo/"/>
     
-    <category term="Next" scheme="https://yingming006.github.io/tags/Next/"/>
+    <category term="Next" scheme="https://yingming006.cn/tags/Next/"/>
     
   </entry>
   
   <entry>
     <title>WSL2 访问 Windows 代理</title>
-    <link href="https://yingming006.github.io/wsl2-access-windows-proxy/"/>
-    <id>https://yingming006.github.io/wsl2-access-windows-proxy/</id>
+    <link href="https://yingming006.cn/wsl2-access-windows-proxy/"/>
+    <id>https://yingming006.cn/wsl2-access-windows-proxy/</id>
     <published>2020-11-30T08:58:27.000Z</published>
     <updated>2021-01-04T12:30:27.000Z</updated>
     
@@ -70,8 +70,8 @@
   
   <entry>
     <title>排序算法-Java实现</title>
-    <link href="https://yingming006.github.io/sort-algorithm-in-java/"/>
-    <id>https://yingming006.github.io/sort-algorithm-in-java/</id>
+    <link href="https://yingming006.cn/sort-algorithm-in-java/"/>
+    <id>https://yingming006.cn/sort-algorithm-in-java/</id>
     <published>2020-11-09T05:37:17.000Z</published>
     <updated>2020-11-09T05:37:17.000Z</updated>
     
@@ -85,14 +85,14 @@
     
     
     
-    <category term="sort" scheme="https://yingming006.github.io/tags/sort/"/>
+    <category term="sort" scheme="https://yingming006.cn/tags/sort/"/>
     
   </entry>
   
   <entry>
     <title>WIN10系统重装与常用软件安装</title>
-    <link href="https://yingming006.github.io/win10-system-reinstallation-and-common-software-install/"/>
-    <id>https://yingming006.github.io/win10-system-reinstallation-and-common-software-install/</id>
+    <link href="https://yingming006.cn/win10-system-reinstallation-and-common-software-install/"/>
+    <id>https://yingming006.cn/win10-system-reinstallation-and-common-software-install/</id>
     <published>2020-11-03T07:36:58.000Z</published>
     <updated>2020-11-03T07:36:58.000Z</updated>
     
@@ -108,8 +108,8 @@
   
   <entry>
     <title>Ubuntu的软件源配置和管理工具</title>
-    <link href="https://yingming006.github.io/software-mirror-in-ubuntu/"/>
-    <id>https://yingming006.github.io/software-mirror-in-ubuntu/</id>
+    <link href="https://yingming006.cn/software-mirror-in-ubuntu/"/>
+    <id>https://yingming006.cn/software-mirror-in-ubuntu/</id>
     <published>2020-11-02T08:29:51.000Z</published>
     <updated>2020-11-02T08:29:51.000Z</updated>
     
@@ -133,8 +133,8 @@
   
   <entry>
     <title>在Ubuntu系统中安装常用软件</title>
-    <link href="https://yingming006.github.io/install-software-in-ubuntu/"/>
-    <id>https://yingming006.github.io/install-software-in-ubuntu/</id>
+    <link href="https://yingming006.cn/install-software-in-ubuntu/"/>
+    <id>https://yingming006.cn/install-software-in-ubuntu/</id>
     <published>2020-09-07T07:06:19.000Z</published>
     <updated>2020-12-29T04:06:19.000Z</updated>
     
@@ -162,8 +162,8 @@
   
   <entry>
     <title>更换Ubuntu镜像源</title>
-    <link href="https://yingming006.github.io/change-ubuntu-repository-mirror-sources/"/>
-    <id>https://yingming006.github.io/change-ubuntu-repository-mirror-sources/</id>
+    <link href="https://yingming006.cn/change-ubuntu-repository-mirror-sources/"/>
+    <id>https://yingming006.cn/change-ubuntu-repository-mirror-sources/</id>
     <published>2020-09-06T13:12:08.000Z</published>
     <updated>2020-09-17T13:12:08.000Z</updated>
     
@@ -190,8 +190,8 @@
   
   <entry>
     <title>基于 Hexo + GitHub Pages 搭建个人博客</title>
-    <link href="https://yingming006.github.io/build-a-personal-blog-based-on-hexo-and-github-pages/"/>
-    <id>https://yingming006.github.io/build-a-personal-blog-based-on-hexo-and-github-pages/</id>
+    <link href="https://yingming006.cn/build-a-personal-blog-based-on-hexo-and-github-pages/"/>
+    <id>https://yingming006.cn/build-a-personal-blog-based-on-hexo-and-github-pages/</id>
     <published>2020-03-31T16:31:13.000Z</published>
     <updated>2020-03-31T16:31:13.000Z</updated>
     
@@ -205,12 +205,12 @@
     
     
     
-    <category term="Hexo" scheme="https://yingming006.github.io/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://yingming006.cn/categories/Hexo/"/>
     
     
-    <category term="Hexo" scheme="https://yingming006.github.io/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://yingming006.cn/tags/Hexo/"/>
     
-    <category term="NexT" scheme="https://yingming006.github.io/tags/NexT/"/>
+    <category term="NexT" scheme="https://yingming006.cn/tags/NexT/"/>
     
   </entry>
   
