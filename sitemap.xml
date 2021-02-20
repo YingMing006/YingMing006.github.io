@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yingming006.cn/categories/index.html</loc>
+    
+    <lastmod>2021-02-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://yingming006.cn/tags/index.html</loc>
+    
+    <lastmod>2021-02-20</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://yingming006.cn/remove-elements-from-list-while-iterating-in-java/</loc>
     
     <lastmod>2021-01-26</lastmod>
@@ -26,20 +40,6 @@
     <loc>https://yingming006.cn/install-software-in-ubuntu/</loc>
     
     <lastmod>2020-12-29</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://yingming006.cn/tags/index.html</loc>
-    
-    <lastmod>2020-12-16</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://yingming006.cn/categories/index.html</loc>
-    
-    <lastmod>2020-12-16</lastmod>
     
   </url>
   
