@@ -6,7 +6,7 @@
   <link href="https://yingming006.cn/atom.xml" rel="self"/>
   
   <link href="https://yingming006.cn/"/>
-  <updated>2021-01-26T04:07:29.000Z</updated>
+  <updated>2021-02-25T03:12:23.813Z</updated>
   <id>https://yingming006.cn/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用 VS Code 和 WSL 搭建 C++ 开发环境</title>
+    <link href="https://yingming006.cn/run-cpp-use-vscode-in-wsl/"/>
+    <id>https://yingming006.cn/run-cpp-use-vscode-in-wsl/</id>
+    <published>2021-02-25T03:09:53.000Z</published>
+    <updated>2021-02-25T03:12:23.813Z</updated>
+    
+    <content type="html"><![CDATA[<p>本文整理自 Visual Studio Code 官方说明文档 <span class="exturl" data-url="aHR0cHM6Ly9jb2RlLnZpc3VhbHN0dWRpby5jb20vZG9jcy9jcHAvY29uZmlnLXdzbA==">Using C++ and WSL in VS Code<i class="fa fa-external-link-alt"></i></span>，对文档内容做了一些简化。</p><blockquote><p>在本教程中，将配置 Visual Studio Code 以在 Linux 的 Windows 子系统（WSL） Ubuntu 上使用 GCC C++编译器（g++） 和 GDB 调试器。GCC 代表 GNU 编译器集合；GDB 是 GNU 调试器。WSL 是 Windows 中的 Linux 环境，它可以直接在计算机硬件上运行，而不是在虚拟机中运行。</p></blockquote><h3 id="前提条件"><a href="#前提条件" class="headerlink" title="前提条件"></a>前提条件</h3><ul><li>安装 WSL，<span class="exturl" data-url="aHR0cHM6Ly9kb2NzLm1pY3Jvc29mdC5jb20vemgtY24vd2luZG93cy93c2wvaW5zdGFsbC13aW4xMA==">官方文档<i class="fa fa-external-link-alt"></i></span></li><li>安装 VS Code，<span class="exturl" data-url="aHR0cHM6Ly9jb2RlLnZpc3VhbHN0dWRpby5jb20vRG93bmxvYWQ=">官方下载地址<i class="fa fa-external-link-alt"></i></span></li></ul><a id="more"></a><h3 id="WSL-配置"><a href="#WSL-配置" class="headerlink" title="WSL 配置"></a>WSL 配置</h3><p>根据官方文档安装之后进入 WSL，首先安装编译和调试工具</p><blockquote><p>需要更换镜像请参阅 <a href="https://yingming006.cn/change-ubuntu-repository-mirror-sources/">更换Ubuntu镜像源</a></p></blockquote><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install build-essential gdb</span><br></pre></td></tr></table></figure><p>安装之后确认是否安装成功</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">whereis g++</span><br><span class="line">whereis gdb</span><br></pre></td></tr></table></figure><p><img data-src="https://i.loli.net/2021/02/25/nSlRcFQD65pvHCf.png" alt="image-20210225100530080"></p><h3 id="通过-WSL-启动-VS-Code"><a href="#通过-WSL-启动-VS-Code" class="headerlink" title="通过 WSL 启动 VS Code"></a>通过 WSL 启动 VS Code</h3><p>新建一个项目文件夹，进入文件夹中，通过 <code>code .</code> 命令启动 WSL</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mkdir helloworld</span><br><span class="line"><span class="built_in">cd</span> helloworld</span><br><span class="line">code .</span><br></pre></td></tr></table></figure><blockquote><p>在这一步通常会自动进行安装 <span class="exturl" data-url="aHR0cHM6Ly9tYXJrZXRwbGFjZS52aXN1YWxzdHVkaW8uY29tL2l0ZW1zP2l0ZW1OYW1lPW1zLXZzY29kZS1yZW1vdGUucmVtb3RlLXdzbA==">Remote - WSL<i class="fa fa-external-link-alt"></i></span>，也可以在 VS Code 手动安装</p></blockquote><h3 id="配置-VS-Code"><a href="#配置-VS-Code" class="headerlink" title="配置 VS Code"></a>配置 VS Code</h3><p>安装  <span class="exturl" data-url="aHR0cHM6Ly9tYXJrZXRwbGFjZS52aXN1YWxzdHVkaW8uY29tL2l0ZW1zP2l0ZW1OYW1lPW1zLXZzY29kZS5jcHB0b29scw==">Microsoft C/C++ extension<i class="fa fa-external-link-alt"></i></span> </p><h3 id="新建-cpp-文件"><a href="#新建-cpp-文件" class="headerlink" title="新建 cpp 文件"></a>新建 cpp 文件</h3><figure class="highlight c++"><figcaption><span>helloworld.cpp</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;string&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">   <span class="built_in">vector</span>&lt;<span class="built_in">string</span>&gt; msg &#123;<span class="string">&quot;Hello&quot;</span>, <span class="string">&quot;C++&quot;</span>, <span class="string">&quot;World&quot;</span>, <span class="string">&quot;from&quot;</span>, <span class="string">&quot;VS Code&quot;</span>, <span class="string">&quot;and the C++ extension!&quot;</span>&#125;;</span><br><span class="line"></span><br><span class="line">   <span class="keyword">for</span> (<span class="keyword">const</span> <span class="built_in">string</span>&amp; word : msg)</span><br><span class="line">   &#123;</span><br><span class="line">      <span class="built_in">cout</span> &lt;&lt; word &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="built_in">cout</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="编译-cpp-文件"><a href="#编译-cpp-文件" class="headerlink" title="编译 cpp 文件"></a>编译 cpp 文件</h3><ol><li><p>在菜单栏中，选择 <code>Terminal</code> &gt; <code>Configure Default Build Task</code>，在弹出下拉栏中选择 <code>g ++ build active file</code></p><p> 之后就会在当前根目录中生成 <code>.vscode/tasks.json</code> 文件</p></li><li><p>使用快捷键 <code>Ctrl + Shift + B</code> 编译文件</p><p> 编译任务开始后，可以在终端界面中看到输出信息</p></li></ol><p><img data-src="https://i.loli.net/2021/02/25/8eUoBvS6LK57FI3.png" alt="image-20210225103331854"></p><ol start="3"><li>在终端执行文件：<code>./helloworld</code></li></ol><h3 id="调试-cpp-文件"><a href="#调试-cpp-文件" class="headerlink" title="调试 cpp 文件"></a>调试 cpp 文件</h3><ol><li><p>在菜单栏中，选择 <code>Run</code> &gt; <code>Add Configuration...</code>，在弹出下拉栏中选择 <code>C++ (GDB/LLDB)</code>，然后选择 <code>g++ build and debug active file</code></p><p> 之后会在当前根目录下生成 <code>.vscode/launch.json</code></p></li><li><p>打开 <code>helloworld.cpp</code>，选择断点，使用快捷键 <code>F5</code> 或者在菜单栏选择 <code>Run</code> &gt; <code>Start Debugging</code></p></li></ol><p>一些注意事项</p><ol><li>VS Code 中自动补全使用的是 <code>Tab</code> 键。</li></ol>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;本文整理自 Visual Studio Code 官方说明文档 &lt;a href=&quot;https://code.visualstudio.com/docs/cpp/config-wsl&quot;&gt;Using C++ and WSL in VS Code&lt;/a&gt;，对文档内容做了一些简化。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在本教程中，将配置 Visual Studio Code 以在 Linux 的 Windows 子系统（WSL） Ubuntu 上使用 GCC C++编译器（g++） 和 GDB 调试器。GCC 代表 GNU 编译器集合；GDB 是 GNU 调试器。WSL 是 Windows 中的 Linux 环境，它可以直接在计算机硬件上运行，而不是在虚拟机中运行。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;前提条件&quot;&gt;&lt;a href=&quot;#前提条件&quot; class=&quot;headerlink&quot; title=&quot;前提条件&quot;&gt;&lt;/a&gt;前提条件&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;安装 WSL，&lt;a href=&quot;https://docs.microsoft.com/zh-cn/windows/wsl/install-win10&quot;&gt;官方文档&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;安装 VS Code，&lt;a href=&quot;https://code.visualstudio.com/Download&quot;&gt;官方下载地址&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    
+    <category term="wsl" scheme="https://yingming006.cn/tags/wsl/"/>
+    
+  </entry>
   
   <entry>
     <title>遍历列表(List)时删除元素</title>
