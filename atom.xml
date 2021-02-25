@@ -63,7 +63,7 @@
     <category term="tech" scheme="https://yingming006.cn/categories/tech/"/>
     
     
-    <category term="list" scheme="https://yingming006.cn/tags/list/"/>
+    <category term="java-collection" scheme="https://yingming006.cn/tags/java-collection/"/>
     
   </entry>
   
@@ -92,8 +92,6 @@
     
     <category term="Hexo" scheme="https://yingming006.cn/tags/Hexo/"/>
     
-    <category term="Next" scheme="https://yingming006.cn/tags/Next/"/>
-    
   </entry>
   
   <entry>
@@ -119,6 +117,8 @@
     <category term="tech" scheme="https://yingming006.cn/categories/tech/"/>
     
     
+    <category term="wsl" scheme="https://yingming006.cn/tags/wsl/"/>
+    
   </entry>
   
   <entry>
@@ -140,7 +140,7 @@
     <category term="tech" scheme="https://yingming006.cn/categories/tech/"/>
     
     
-    <category term="sort" scheme="https://yingming006.cn/tags/sort/"/>
+    <category term="algorithm" scheme="https://yingming006.cn/tags/algorithm/"/>
     
   </entry>
   
@@ -272,8 +272,6 @@
     
     
     <category term="Hexo" scheme="https://yingming006.cn/tags/Hexo/"/>
-    
-    <category term="NexT" scheme="https://yingming006.cn/tags/NexT/"/>
     
   </entry>
   
