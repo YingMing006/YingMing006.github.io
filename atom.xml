@@ -164,6 +164,28 @@
   </entry>
   
   <entry>
+    <title>IDEA can&#39;t use HTTPClient solution process</title>
+    <link href="https://yingming006.cn/IDEA-cannot-use-HTTP-Client-solution-process/"/>
+    <id>https://yingming006.cn/IDEA-cannot-use-HTTP-Client-solution-process/</id>
+    <published>2020-11-03T05:00:03.000Z</published>
+    <updated>2021-03-15T04:00:03.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><p><img data-src="https://img-blog.csdnimg.cn/img_convert/cb3a4fc6f56a7257109a386f759c37b4.png" alt="image-20201103111841176"></p><p>点击 <code>Run All Requsets in File</code> =&gt; <code>Run with no environment</code> 时，控制台报错如图。</p><a id="more"></a><h2 id="问题排查"><a href="#问题排查" class="headerlink" title="问题排查"></a>问题排查</h2><p>首先在浏览器中测试 GET 请求，请求正常响应，如图</p><p><img data-src="https://img-blog.csdnimg.cn/img_convert/a2809879cb44173da7951891ce90dc9f.png" alt="image-20201103112218103"></p><p>然后又在 Postman 中测试也没有问题</p><p>这时想到，应该是 IDEA 的问题了，首先想到的就是插件出了问题，但是 IDEA HTTP Client 没有用到插件，所以说应该不是插件的问题。</p><h2 id="问题解决"><a href="#问题解决" class="headerlink" title="问题解决"></a>问题解决</h2><p>最终经过一番查找，是 IDEA 的代理出了问题，准确说是 IDEA 的代理没有忽略本地地址，导致 IDEA 访问不到本地，所以在 IDEA 代理中设置一下就解决了，配置如图：</p><p><img data-src="https://img-blog.csdnimg.cn/img_convert/e1e52a8264971abb5d04d2373c547117.png" alt="image-20201103112903111"></p><p>或者是直接关闭代理也可以解决。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>正确的使用搜索引擎可以提高问题排查效率。</p><p>尽可能准确的使用关键字查询。</p>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/img_convert/cb3a4fc6f56a7257109a386f759c37b4.png&quot; alt=&quot;image-20201103111841176&quot;&gt;&lt;/p&gt;
+&lt;p&gt;点击 &lt;code&gt;Run All Requsets in File&lt;/code&gt; =&amp;gt; &lt;code&gt;Run with no environment&lt;/code&gt; 时，控制台报错如图。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="tech" scheme="https://yingming006.cn/categories/tech/"/>
+    
+    
+    <category term="idea" scheme="https://yingming006.cn/tags/idea/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Ubuntu的软件源配置和管理工具</title>
     <link href="https://yingming006.cn/software-mirror-in-ubuntu/"/>
     <id>https://yingming006.cn/software-mirror-in-ubuntu/</id>
