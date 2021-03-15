@@ -346,4 +346,29 @@
     
   </entry>
   
+  <entry>
+    <title>解决 win10 Postman 无法打开的问题&quot;Could not open Postman&quot;</title>
+    <link href="https://yingming006.cn/fix-win10-cannot-open-postman/"/>
+    <id>https://yingming006.cn/fix-win10-cannot-open-postman/</id>
+    <published>2019-12-10T12:57:29.000Z</published>
+    <updated>2021-03-15T04:32:21.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>环境参数：<br>win 10 1903<br>Postman 7.13.0</p><p>安装完 Postman 打开后会出现下列情况<br><img data-src="https://i.loli.net/2019/12/10/c9Q2EyGLZAWIPaD.png" width=300 ></p><p>先打开任务管理器，结束 Postman 进程</p><p>然后删除 Postman 本地数据<br><code>C:\Users\&lt;user&gt;\AppData\Roaming\Postman</code></p><p>完成后再打开就可以了</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;环境参数：&lt;br&gt;win 10 1903&lt;br&gt;Postman 7.13.0&lt;/p&gt;
+&lt;p&gt;安装完 Postman 打开后会出现下列情况&lt;br&gt;&lt;img data-src=&quot;https://i.loli.net/2019/12/10/c9Q2EyGLZAWIPaD.png&quot;</summary>
+      
+    
+    
+    
+    <category term="tech" scheme="https://yingming006.cn/categories/tech/"/>
+    
+    
+    <category term="win10" scheme="https://yingming006.cn/tags/win10/"/>
+    
+  </entry>
+  
 </feed>
