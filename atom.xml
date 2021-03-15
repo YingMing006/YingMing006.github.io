@@ -6,7 +6,7 @@
   <link href="https://yingming006.cn/atom.xml" rel="self"/>
   
   <link href="https://yingming006.cn/"/>
-  <updated>2021-03-15T04:56:55.000Z</updated>
+  <updated>2021-02-25T03:12:23.813Z</updated>
   <id>https://yingming006.cn/</id>
   
   <author>
@@ -15,28 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>【Java基础】Java集合框架（一）概览</title>
-    <link href="https://yingming006.cn/java-collections-overview/"/>
-    <id>https://yingming006.cn/java-collections-overview/</id>
-    <published>2021-03-15T04:56:55.000Z</published>
-    <updated>2021-03-15T04:56:55.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img data-src="https://img-blog.csdnimg.cn/20190515130837158.gif" alt="Java集合框架"></p><p>从图中可以看出，Java集合框架主要包括两种类型的容器，一种是<strong>Collection</strong>，存储对象的集合，另一种是<strong>Map</strong>，存储键值对映射表。Collection 接口又有3种子接口，List、Set和Queue。</p><a id="more"></a><h3 id="Collection"><a href="#Collection" class="headerlink" title="Collection"></a>Collection</h3><p><img data-src="https://img-blog.csdnimg.cn/20190515130850462.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01TaG93MDA2,size_16,color_FFFFFF,t_70" alt="Collection"></p><h4 id="List-接口"><a href="#List-接口" class="headerlink" title="List 接口"></a>List 接口</h4><p>实现 List 接口的数据结构允许重复元素，可通过索引访问元素，例如 LinkedList、ArrayList、Vector</p><p>常用实现类：</p><ul><li>ArrayList：允许重复元素，底层数据结构可变数组。</li><li>Vector：和 ArrayList 类似，但它是线程安全的。</li><li>LinkedList：允许重复元素，底层数据结构双链表。</li></ul><h4 id="Set-接口"><a href="#Set-接口" class="headerlink" title="Set 接口"></a>Set 接口</h4><p>实现 Set 接口的数据结构不允许重复的元素，例如 HashSet、LinkedHashSet</p><p>常用实现类：</p><ul><li><p>HashSet：不允许重复的元素，底层数据结构 hash table。</p></li><li><p>LinkedHashSet：不允许重复的元素，底层数据结构 hash table 与双链表。</p></li><li><p>TreeSet：不允许重复的元素，底层数据结构红黑树。</p></li></ul><h4 id="Queue-接口"><a href="#Queue-接口" class="headerlink" title="Queue 接口"></a>Queue 接口</h4><p>常用实现类：</p><ul><li>LinkedList：可以用它来实现双向队列。</li><li>PriorityQueue：基于堆结构实现，可以用它来实现优先队列。</li></ul><h3 id="Map"><a href="#Map" class="headerlink" title="Map"></a>Map</h3><p><img data-src="https://img-blog.csdnimg.cn/20190515130904846.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01TaG93MDA2,size_16,color_FFFFFF,t_70" alt="Map"></p><p>实现 Map 接口的数据结构存储键值对，不允许重复的 key，例如 HashMap、LinkedHashMap、Hashtable</p><p>常用实现类：</p><ul><li>HashMap：不允许重复的 key，底层数据结构 hash table。</li><li>HashTable：和 HashMap 类似，但它是线程安全的。</li><li>LinkedHashMap：不允许重复的 key，底层数据结构 hash table 与双链表。</li><li>TreeMap：不允许重复的 key，底层数据结构红黑树</li></ul><blockquote><p>参考文章：<span class="exturl" data-url="aHR0cDovL3d3dy5pbXBvcnRuZXcuY29tLzMxMjIzLmh0bWw=">一文快速了解Java集合框架 - ImportNew<i class="fa fa-external-link-alt"></i></span></p></blockquote>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/20190515130837158.gif&quot; alt=&quot;Java集合框架&quot;&gt;&lt;/p&gt;
-&lt;p&gt;从图中可以看出，Java集合框架主要包括两种类型的容器，一种是&lt;strong&gt;Collection&lt;/strong&gt;，存储对象的集合，另一种是&lt;strong&gt;Map&lt;/strong&gt;，存储键值对映射表。Collection 接口又有3种子接口，List、Set和Queue。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="tech" scheme="https://yingming006.cn/categories/tech/"/>
-    
-    
-    <category term="java" scheme="https://yingming006.cn/tags/java/"/>
-    
-  </entry>
   
   <entry>
     <title>使用 VS Code 和 WSL 搭建 C++ 开发环境</title>
@@ -494,6 +472,31 @@
     
     
     <summary type="html">&lt;h2 id=&quot;1-数据库（DATABASE）的创建、删除、修改和查看&quot;&gt;&lt;a href=&quot;#1-数据库（DATABASE）的创建、删除、修改和查看&quot; class=&quot;headerlink&quot; title=&quot;1. 数据库（DATABASE）的创建、删除、修改和查看&quot;&gt;&lt;/a&gt;1. 数据库（DATABASE）的创建、删除、修改和查看&lt;/h2&gt;&lt;h3 id=&quot;创建数据库：&quot;&gt;&lt;a href=&quot;#创建数据库：&quot; class=&quot;headerlink&quot; title=&quot;创建数据库：&quot;&gt;&lt;/a&gt;创建数据库：&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;CREATE DATABASE [IF NOT EXISTS] &amp;lt;数据库名&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	[[DEFAULT] CHARACTER SET &amp;lt;字符集名&amp;gt;] [[DEFAULT] COLLATE &amp;lt;校对规则名&amp;gt;];&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="tech" scheme="https://yingming006.cn/categories/tech/"/>
+    
+    
+    <category term="mysql" scheme="https://yingming006.cn/tags/mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决 MySQL-Error:Your password does not satisfy the current policy requirements</title>
+    <link href="https://yingming006.cn/fix-mysql-error-your-password-does-not-satisfy-the-current-policy-requirements/"/>
+    <id>https://yingming006.cn/fix-mysql-error-your-password-does-not-satisfy-the-current-policy-requirements/</id>
+    <published>2019-08-30T13:20:31.000Z</published>
+    <updated>2021-03-15T04:45:46.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h3><p>MySQL版本：Server version: 5.7.27-0ubuntu0.18.04.1 (Ubuntu)</p><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>今天打算在MySQL创建用户时遇到了下面这个错误：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">mysql&gt; CREATE USER IF NOT EXISTS &#39;yingming006&#39;@&#39;%&#39; IDENTIFIED BY &#39;yingming006&#39;;</span><br><span class="line">ERROR 1819 (HY000): Your password does not satisfy the current policy requirements</span><br></pre></td></tr></table></figure><p>这是因为MySQL默认的密码策略问题，输入以下命令查看当前的密码策略设置</p><a id="more"></a><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">SHOW VARIABLES LIKE &#39;validate_password%&#39;</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">+--------------------------------------+--------+</span><br><span class="line">| Variable_name                        | Value  |</span><br><span class="line">+--------------------------------------+--------+</span><br><span class="line">| validate_password_check_user_name    | OFF    |</span><br><span class="line">| validate_password_dictionary_file    |        |</span><br><span class="line">| validate_password_length             | 8      |</span><br><span class="line">| validate_password_mixed_case_count   | 1      |</span><br><span class="line">| validate_password_number_count       | 1      |</span><br><span class="line">| validate_password_policy             | MEDIUM |</span><br><span class="line">| validate_password_special_char_count | 1      |</span><br><span class="line">+--------------------------------------+--------+</span><br><span class="line">7 rows <span class="keyword">in</span> <span class="built_in">set</span> (0.01 sec)</span><br></pre></td></tr></table></figure><p>参数说明：</p><ul><li>validate_password_check_user_name :用户名检测，默认关闭</li><li>validate_password_dictionary_file :字典文件，就是要在字典规则里才能满足密码的条件。</li><li>validate_password_length :密码的长度至少为8位</li><li>validate_password_mixed_case_count ：密码中至少有一个大写小字母</li><li>validate_password_number_count ：密码中至少一个数字</li><li>validate_password_special_char_count :密码中至少一个特殊字符</li><li>validate_password_policy :密码的安全策略 MEDIUM或者0 、LOW或者1、STRONG或者2<br>LOW :策略仅测试密码长度。密码长度必须至少为8个字符。<br>MEDIUM :策略添加了密码必须至少包含1个数字字符，1个小写字符，1个大写字符和1个特殊（非字母数字）字符的条件。<br>STRONG :策略添加了长度为4或更长的密码子字符串不能匹配字典文件中的字词（如果已经指定）的条件。<br>所以最终的密码设置策略就是：不得低于8位，而且必须至少有一个大写和一个小写字母、至少一个数字和至少的一个特殊字符组成；</li></ul><p>在设置密码是建议的规则是：大写+小写+特殊字符+数字组成的8位以上密码</p><h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><p>根据自己的环境要求，设定适合的参数，我这里就方便测试更改了安全级别：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">mysql&gt; SET GLOBAL validate_password_policy&#x3D;LOW;</span><br><span class="line">Query OK, 0 rows affected (0.00 sec)</span><br></pre></td></tr></table></figure><p>再试一下：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">mysql&gt; CREATE USER IF NOT EXISTS &#39;yingming006&#39;@&#39;%&#39; IDENTIFIED BY &#39;yingming006&#39;;</span><br><span class="line">Query OK, 0 rows affected (0.01 sec)</span><br></pre></td></tr></table></figure><p>解决！</p>]]></content>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h3&gt;&lt;p&gt;MySQL版本：Server version: 5.7.27-0ubuntu0.18.04.1 (Ubuntu)&lt;/p&gt;
+&lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;今天打算在MySQL创建用户时遇到了下面这个错误：&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;mysql&amp;gt; CREATE USER IF NOT EXISTS &amp;#39;yingming006&amp;#39;@&amp;#39;%&amp;#39; IDENTIFIED BY &amp;#39;yingming006&amp;#39;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ERROR 1819 (HY000): Your password does not satisfy the current policy requirements&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;这是因为MySQL默认的密码策略问题，输入以下命令查看当前的密码策略设置&lt;/p&gt;</summary>
     
     
     
