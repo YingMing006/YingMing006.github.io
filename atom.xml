@@ -392,4 +392,30 @@
     
   </entry>
   
+  <entry>
+    <title>SQL命令:DDL,DQL,DML,DCL和TCL</title>
+    <link href="https://yingming006.cn/sql-commond-DDL-DQL-DML-DCL-TCL/"/>
+    <id>https://yingming006.cn/sql-commond-DDL-DQL-DML-DCL-TCL/</id>
+    <published>2019-11-20T14:51:03.000Z</published>
+    <updated>2021-03-15T04:37:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<img data-src="https://i.loli.net/2019/11/14/ptPu9y2gIsFjl7U.png" ><p>SQL 是一种数据库查询和程序设计语言，用于存取数据以及查询、更新和管理关系数据库系统。 SQL使用某些命令（例如，创建，删除，插入等）来执行所需的任务。 </p><p>SQL 命令主要由以下几类：</p><ul><li>DDL – Data Definition Language</li><li>DQl – Data Query Language</li><li>DML – Data Manipulation Language</li><li>DCL – Data Control Language</li><li>TCL – Transaction Control Language </li></ul><h3 id="1-DDL-–-Data-Definition-Language"><a href="#1-DDL-–-Data-Definition-Language" class="headerlink" title="1. DDL – Data Definition Language"></a>1. DDL – Data Definition Language</h3><p>DDL：创建和修改数据库中<span class="exturl" data-url="aHR0cHM6Ly93d3cuZ2Vla3Nmb3JnZWVrcy5vcmcvZGF0YWJhc2Utb2JqZWN0cy1pbi1kYm1zLw==">数据库对象<i class="fa fa-external-link-alt"></i></span>（Table ,  View 等）结构。</p><ul><li><p>CREATE： 在数据库中创建对象</p><p>创建数据库：<code> CREATE DATABASE IF NOT EXISTS test_db;</code></p></li><li><p>DROP： 从数据库中删除对象</p><p>删除数据库：<code> DROP DATABASE IF NOT EXISTS test_db;</code> </p></li><li><p>ALTER： 修改数据库对象</p><p>修改数据表：<code>ALTER TABLE tb_emp1 ADD COLUMN col1 INT FIRST;</code>（在表的第一列添加一个 int 类型的字段 col1 ）</p></li><li><p>TRUNCATE：从表中删除所有记录</p><p><code>TRUNCATE TABLE  table_name;</code></p></li><li><p>COMMETN：添加注释</p></li><li><p>RENAME：重命名数据库中的表名，字段名</p></li></ul><h3 id="2-DQL-Data-Query-Language"><a href="#2-DQL-Data-Query-Language" class="headerlink" title="2. DQL -  Data Query Language"></a>2. DQL -  <strong>Data Query Language</strong></h3><p>DQL ：用于用于从数据库查询数据。 </p><ul><li>SELECT</li></ul><h3 id="3-DML-Data-Manipulation-Language"><a href="#3-DML-Data-Manipulation-Language" class="headerlink" title="3. DML - Data Manipulation Language"></a>3. DML - Data Manipulation Language</h3><p>DML：  用于在添加（插入），删除和修改（更新）数据 。</p><ul><li>INSERT：插入数据</li><li>UPDATE：更新数据</li><li>DELETE：删除数据</li></ul><h3 id="4-DCL-–-Data-Control-Language"><a href="#4-DCL-–-Data-Control-Language" class="headerlink" title="4. DCL – Data Control Language"></a>4. DCL – Data Control Language</h3><p>DCL： 授权，角色控制等。</p><ul><li>GRANT：为用户赋予访问权限</li><li>REVOKE：撤回授权权限</li></ul><h3 id="5-TCL-–-Transaction-Control-Language"><a href="#5-TCL-–-Transaction-Control-Language" class="headerlink" title="5. TCL – Transaction Control Language"></a>5. TCL – Transaction Control Language</h3><p>TCL：处理数据库中的事务。</p><ul><li><p>COMMIT：提交一个事务</p></li><li><p>SAVEPOINT：在事务中设置保存点，可以回滚到此保存点</p></li><li><p>ROLLBACK：回滚事务</p></li><li><p>SET TRANSACTION：改变事务选项</p></li></ul><p>参考：<span class="exturl" data-url="aHR0cHM6Ly93d3cuZ2Vla3Nmb3JnZWVrcy5vcmcvc3FsLWRkbC1kcWwtZG1sLWRjbC10Y2wtY29tbWFuZHMv">SQL|DDL,DQL,DML,DCL and TCL Commands - GeeksforGeeks<i class="fa fa-external-link-alt"></i></span></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;img data-src=&quot;https://i.loli.net/2019/11/14/ptPu9y2gIsFjl7U.png&quot; &gt;
+
+&lt;p&gt;SQL 是一种数据库查询和程序设计语言，用于存取数据以及查询、更新和管理关系数据库系统。 SQL使用某些命令（例如，创建，删除，插入等）</summary>
+      
+    
+    
+    
+    <category term="tech" scheme="https://yingming006.cn/categories/tech/"/>
+    
+    
+    <category term="sql" scheme="https://yingming006.cn/tags/sql/"/>
+    
+  </entry>
+  
 </feed>
