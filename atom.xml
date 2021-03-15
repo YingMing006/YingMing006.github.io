@@ -164,7 +164,7 @@
   </entry>
   
   <entry>
-    <title>IDEA can&#39;t use HTTPClient solution process</title>
+    <title>IDEA 无法使用 HTTP Client 的解决过程</title>
     <link href="https://yingming006.cn/IDEA-cannot-use-HTTP-Client-solution-process/"/>
     <id>https://yingming006.cn/IDEA-cannot-use-HTTP-Client-solution-process/</id>
     <published>2020-11-03T05:00:03.000Z</published>
@@ -294,6 +294,28 @@
     
     
     <category term="Hexo" scheme="https://yingming006.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>启动 WSL 2时警告“参考的对象类型不支持尝试的操作”</title>
+    <link href="https://yingming006.cn/wsl2-error-the-attempted-operation-is-not-supported-for-the-type-of-object-referenced/"/>
+    <id>https://yingming006.cn/wsl2-error-the-attempted-operation-is-not-supported-for-the-type-of-object-referenced/</id>
+    <published>2019-12-30T14:33:32.000Z</published>
+    <updated>2021-03-15T04:26:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://sm.ms/image/8tUdMrmAfWqKHTw" target="_blank"><img data-src="https://i.loli.net/2019/12/30/8tUdMrmAfWqKHTw.png" ></a></p><p>出现图中所示错误的原因是 <strong>代理软件与 wsl2 的端口冲突</strong>。</p><a id="more"></a><p><del>在管理员身份模式下执行 <code>netsh winsock reset</code> ,可以重新启动 <code>WSL</code>。</del></p><blockquote><p>此操作会导致代理软件（proxifier）无法使用，请谨慎操作。<br><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL21pY3Jvc29mdC9XU0wvaXNzdWVzLzQxOTQjaXNzdWVjb21tZW50LTYzNjQ2ODk4NA==">Github Issue1<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL21pY3Jvc29mdC9XU0wvaXNzdWVzLzQxNzcjaXNzdWVjb21tZW50LTUwODgyNjcwOA==">Github Issue2<i class="fa fa-external-link-alt"></i></span></p></blockquote><p>使用 <code>NoLsp.exe</code>  <span class="exturl" data-url="aHR0cDovL3d3dy5wcm94aWZpZXIuY29tL3RtcC9UZXN0MjAyMDAyMjgvTm9Mc3AuZXhl">下载链接<i class="fa fa-external-link-alt"></i></span> </p><p><span class="exturl" data-url="aHR0cHM6Ly93d2EubGFuem91cy5jb20vaUtHc05qdDh0aWQ=">备用下载链接<i class="fa fa-external-link-alt"></i></span></p><p>使用管理员身份运行以下命令:</p><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">NoLsp.exe C:\Windows\system32\wsl.exe</span><br></pre></td></tr></table></figure><blockquote><p>参数为 wsl 的绝对路径（默认为 <code>C:\Windows\system32\wsl.exe</code>）</p></blockquote><p>问题原因及解决方案的讨论见 <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL21pY3Jvc29mdC9XU0wvaXNzdWVzLzQxNzcjaXNzdWVjb21tZW50LTU5NzczNjQ4Mg==">Gihub Issue<i class="fa fa-external-link-alt"></i></span></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://sm.ms/image/8tUdMrmAfWqKHTw&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/12/30/8tUdMrmAfWqKHTw.png&quot; &gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;出现图中所示错误的原因是 &lt;strong&gt;代理软件与 wsl2 的端口冲突&lt;/strong&gt;。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="tech" scheme="https://yingming006.cn/categories/tech/"/>
+    
+    
+    <category term="wsl" scheme="https://yingming006.cn/tags/wsl/"/>
     
   </entry>
   
